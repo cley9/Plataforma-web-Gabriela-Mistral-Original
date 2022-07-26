@@ -1,8 +1,6 @@
 <?php
-
-               //require("head_style.php");
-               include("head_style.php");
-              ?>
+include('include/header.php'); 
+?>
 
               <style media="screen">
               .centrarCaja {
@@ -23,32 +21,32 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="imgs_/Colegio exterior.jpg" width="300px" height="400px" class="d-block w-100" alt="BoxPrincipal-adidasPack-ESP" />
+                                <img src="img/carusel/estudiantes.jpg" width="300px" height="400px" class="d-block w-100" alt="BoxPrincipal-adidasPack-ESP" />
                                 <div class="container">
                                     <div class="carousel-caption text-right">
-                                        <h1>Institucion Educativa </h1>
-                                        <p>2021</p>
+                                        <h1>Instituto Británico </h1>
+                                        <p>2022</p>
                                         <p><a class="btn btn-sm btn-primary" href="#" role="button">Ver mas</a></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="imgs_/Promo2.jpg" width="300px" height="400px" class="d-block w-100" alt="BannerMedioACGESP" />
+                                <img src="img/carusel/group.jpg" width="300px" height="400px" class="d-block w-100" alt="BannerMedioACGESP" />
                                 <div class="container">
 
                                     <div class="carousel-caption text-right">
                                         <h1>Graduaciones  </h1>
-                                        <p>2021</p>
+                                        <p>2022</p>
                                         <p><a class="btn btn-sm btn-primary" href="#" role="button">Ver mas</a></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="imgs_/Pri2.jpg" width="300px" height="400px"class="d-block w-100" alt="Banner21" />
+                                <img src="img/carusel/lugar.jpg" width="300px" height="400px"class="d-block w-100" alt="Banner21" />
                                 <div class="container">
                                   <div class="carousel-caption text-right">
                                       <h1 >Portada</h1>
-                                      <p>2021</p>
+                                      <p>2022</p>
                                       <p><a class="btn btn-sm btn-primary" href="#" role="button">Ver mas</a></p>
                                   </div>
                                 </div>
@@ -77,7 +75,7 @@
 
                                   <div class=" text-center py-lg-5 row"><!-- row-->
                                       <h1 class="col-lg-12 mb-lg-4">QUIENES SOMOS</h1>
-                                      <p> Colegio Gabriela Mistral se ha convertido en una de las Instituciones de mayor prestigio en la ciudad de Arequipa por su alto nivel de rendimiento académico, disciplina y nivel de instrucción en las diferentes áreas. Nuestro compromiso es ofrecer al estudiante Panamericano la mejor preparación de la región, con una base sólida en valores, que le permita sobresalir como líder del siglo XXI, con excelente preparación académica, seguro de sí mismo, respetuoso, alegre, creativo, solidario, con gran deseo de superación, que vive y piensa en un ambiente multicultural, respetando y honrando nuestros valores patrios.</p>
+                                      <p> El instituto britanico se ha convertido en una de las Instituciones de mayor prestigio en la ciudad de Arequipa por su alto nivel de rendimiento académico, disciplina y nivel de instrucción en las diferentes áreas. Nuestro compromiso es ofrecer al estudiante Panamericano la mejor preparación de la región, con una base sólida en valores, que le permita sobresalir como líder del siglo XXI, con excelente preparación académica, seguro de sí mismo, respetuoso, alegre, creativo, solidario, con gran deseo de superación, que vive y piensa en un ambiente multicultural, respetando y honrando nuestros valores patrios.</p>
 
                                   </div>
                                   <div class="text-center">
@@ -102,10 +100,10 @@
                                                               <div class="row">
                                                                   <div class="col-md-4">
                                                                       <div class="card mb-4 shadow-sm">
-                                                                          <img src="img/fertilizante_2.jpg" alt=""/><!--"img/1677672_P.webp" -->
+                                                                          <img src="img/carusel/estudiantes.jpg" alt=""/><!--"img/1677672_P.webp" -->
                                                                           <div class="card-body">
                                                                               <p class="card-text"><h3 class="text-center">Mision</h3></p>
-                                                                              <p>En el Colegio Gabriela Mistral estamos comprometidos con la excelencia, con lograr la mejor preparación académica, tecnológica, en el idioma inglés y en valores, brindamos nuetro mejor esfuerzo para que nuestros estudiantes experimenten un cúmulo de experiencias positivas y gratificantes en su formación</p>
+                                                                              <p>En el instituto britanico estamos comprometidos con la excelencia, con lograr la mejor preparación académica, tecnológica, en el idioma inglés y en valores, brindamos nuetro mejor esfuerzo para que nuestros estudiantes experimenten un cúmulo de experiencias positivas y gratificantes en su formación</p>
 
 
 
@@ -116,7 +114,7 @@
                                                                                       <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                                                                                       <button type="button" class="btn btn-sm btn-outline-primary">Compartir</button>
                                                                                   </div>
-                                                                                  <span>2020</span>
+                                                                                  <span>2022</span>
                                                                               </div>
                                                                           </div>
                                                                       </div>
@@ -130,7 +128,7 @@
                                                                    <div class="col-md-4">
                                                                        <div class="card mb-4 shadow-sm">    <br>
                                                                           <p ><h3 class="text-center">Portada</h3> </p>
-                                                                           <img src="imgs_/1.jpg" height="250px" alt=""/>
+                                                                           <img src="img/carusel/group.jpg" height="250px" alt=""/>
 
                                                                        </div>
                                                                    </div>
@@ -138,11 +136,11 @@
 
 
                                                                   <div class="col-md-4">
-                                                                      <div class="card mb-4 shadow-sm">
-                                                                          <img src="img/fertilizante_1.jpg" alt=""/>
+                                                                      <div class="card mb-4 shadow-sm " >
+                                                                          <img src="img/vision/vision.webp" alt="" height="230px"/>
                                                                           <div class="card-body">
                                                                               <p class="card-text"><h3 class="text-center">Vision</h3> </p>
-                                                                              <p>El Colegio Gabriela Mistral se proyecta a ser una comunidad educativa líder en el campo educativo, alcanzando una educación internacional de calidad. </p>   </td>
+                                                                              <p>El instituto britanico se proyecta a ser una comunidad educativa líder en el campo educativo, alcanzando una educación internacional de calidad. </p>   </td>
 
                                                                               <br><br><br><br>
                                                                               <div class="d-flex justify-content-between align-items-center">
@@ -150,7 +148,7 @@
                                                                                       <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                                                                                       <button type="button" class="btn btn-sm btn-outline-primary">Compartir</button>
                                                                                   </div>
-                                                                                  <span>2020</span>
+                                                                                  <span>2022</span>
                                                                               </div>
                                                                           </div>
                                                                       </div>
@@ -175,7 +173,7 @@
                                                                                       <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                                                                                       <button type="button" class="btn btn-sm btn-outline-primary">Compartir</button>
                                                                                   </div>
-                                                                                  <span>2020</span>
+                                                                                  <span>2022</span>
                                                                               </div>
                                                                           </div>
                                                                       </div>
@@ -191,7 +189,7 @@
                                                                                       <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                                                                                       <button type="button" class="btn btn-sm btn-outline-primary">Compartir</button>
                                                                                   </div>
-                                                                                  <span>2020</span>
+                                                                                  <span>2022</span>
                                                                               </div>
                                                                           </div>
                                                                       </div>
@@ -208,7 +206,7 @@
                                                                                       <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                                                                                       <button type="button" class="btn btn-sm btn-outline-primary">Compartir</button>
                                                                                   </div>
-                                                                                  <span>2020</span>
+                                                                                  <span>2022</span>
                                                                               </div>
                                                                           </div>
                                                                       </div>
@@ -228,15 +226,16 @@
                             <img src="img/ubicar.gif" href="#" width="100" height="100">
                                                                           <!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5412.831786913061!2d-71.52645623113686!3d-16.401953433158823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b0681056e87%3A0x5b90e7ff20dbd16a!2sColegio%20Particular%20Gabriela%20Mistral!5e0!3m2!1ses-419!2spe!4v1605116042540!5m2!1ses-419!2spe" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>-->
                               <br><br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5412.831786913061!2d-71.52645623113686!3d-16.401953433158823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b0681056e87%3A0x5b90e7ff20dbd16a!2sColegio%20Particular%20Gabriela%20Mistral!5e0!3m2!1ses-419!2spe!4v1605116042540!5m2!1ses-419!2spe" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
-                              <p>UBIQUENOS
-                              Estamos ubicados en Urb. La Pradera Mz. A - Lote 1 Coop. Universitaria CERCADO DE AREQUIPA, AREQUIPA (Arequipa) Teléfono: (054) 45-1082	</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5412.831786913061!2d-71.52645623113686!3d-16.401953433158823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b0681056e87%3A0x5b90e7ff20dbd16a!2sColegio%20Particular%20Gabriela%20Mistral!5e0!3m2!1ses-419!2spe!4v1605116042540!5m2!1ses-419!2spe" width="1000" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+    <br><br>                          
+    <!-- <p>UBIQUENOS
+                              Estamos ubicados en Urb.  Universitaria CERCADO DE AREQUIPA, AREQUIPA </p> -->
                                                                       <div class="d-flex justify-content-between align-items-center">
                                                                           <div class="btn-group">
                                                                               <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                                                                               <button type="button" class="btn btn-sm btn-outline-primary">Compartir</button>
                                                                           </div>
-                                                                          <span>2020</span>
+                                                                          <span>2022</span>
                                                                       </div>
                                                                   </div>
                                                               </div>
@@ -247,7 +246,6 @@
 
 </main>
 
-
 <?php
-    include("footer_style.php");
- ?>
+include('include/footer.php');              
+?>

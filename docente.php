@@ -1,13 +1,7 @@
 <?php
-
-             //require("head_style.php");
-             include("head_style.php");
-            ?>
-
-
-
-    <div class="" >
-
+include('include/header.php'); 
+?>
+      <div class="" >
       <h3 class="text-center" >Acceda a su correo institucional estimado docente</h3>
     </div>
 
@@ -71,11 +65,7 @@
                 </div>
             </div>
         </div>
+<?php
+include('include/footer.php');              
+?>
 
-
-
-
-
-        <?php
-            include("footer_style.php");
-         ?>

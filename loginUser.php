@@ -1,12 +1,6 @@
 <?php
-
-  //require("head_style.php");
-  include("head_style.php");
- ?>
-
-
-
-
+include('include/header.php'); 
+?>
                             <section class="products container-fluid ">
                                         <div class="container py-lg-5 ">
                                             <h2 class="text-center pb-lg-4">Elija a que cuenta desea ingresar</h2>
@@ -16,11 +10,12 @@
                                               </div>
                                                 <div class="col-md-4">
                                                     <div class="card mb-4 shadow-sm">
-                                                        <img src="imgs_/docente.jpg" height="250px" alt=""/>
+                                                        <!-- <img src="imgs_/docente.jpg" height="250px" alt=""/> -->
+                                                        <img src="img/icons/profe.png" height="250px" alt=""/>
                                                         <div class="card-body">
 
 
-                                                          <p class="card-text "><h3 class="text-center">Docente </h3> </p>
+                                                          <p class="card-text "><h3 class="text-center">Docente</h3> </p>
                                                       <!--  <p>Lista de beneficios</p>
                                                         <p>1ª Clases virtuales </p>
                                                           <p>2ª Actividades continuas</p>
@@ -68,7 +63,8 @@
                                                 <div class="col-md-4">
                                                     <div class="card mb-4 shadow-sm ">
 
-                                                        <img src="imgs_/study.jpg" height="250px" alt=""/>
+                                                        <img src="img/icons/alumno.jpg" height="250px" alt=""/>
+                                                        <!-- <img src="imgs_/study.jpg" height="250px" alt=""/> -->
 
                                                             <div class="card-body ">
                                                             <p class="card-text "><h3 class="text-center">Alumno </h3> </p>
@@ -81,7 +77,7 @@
 
                                                             <div class="text-center ">
                                                                 <div class="btn-group ">
-                                                                      <a href="alumno_.php" type="button" class="btn btn-success"> Alumno </a>
+                                                                      <a href="alumno.php" type="button" class="btn btn-success"> Alumno </a>
                                                                 </div>
                                                             </div>
 
@@ -151,7 +147,7 @@
             </div>
 
           --------------------------------------------------------------------------------------------------------------  ---->
+          <?php
+include('include/footer.php');              
+?>
 
-            <?php
-                include("footer_style.php");
-             ?>

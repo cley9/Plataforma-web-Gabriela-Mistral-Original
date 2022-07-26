@@ -9,19 +9,19 @@
            $nombreImg=$_FILES['file']['name'];
            $ruta=$_FILES['file']['tmp_name'];
            $destino="Archivos/".$nombreImg;  // ubicación donde se guarda la imagen
-
            //$route= "archivo 2020".$fileName; // rutta de la img o archivo
             if(copy($ruta,$destino)){
-                   $sql = "INSERT INTO registro_actividades (name_Actividad, Tipo_formato) VALUES (:miName, :miDescription)";
+                 $sql = "INSERT INTO registro_actividades (name_Actividad, Tipo_formato) VALUES (:miName, :miDescription)";
                  $resultado = $base->prepare($sql);//es metodo de la clase pdo
-               $resultado->execute(array(":miName"=>$titulo, ":miDescription"=>$destino));
-
-                   echo 'archivo subido';
-                   echo "<a href='mostrar.php' download='archivo'   >mostarar archivos </a>";
+                 $resultado->execute(array(":miName"=>$titulo, ":miDescription"=>$destino));
+                 echo 'archivo subido';
+                 echo "<a href='mostrar.php' download='archivo'   >mostarar archivos </a>";
                  }
                }
-             }
-
-
+      
+     }
 
   ?>
+
+     
+     

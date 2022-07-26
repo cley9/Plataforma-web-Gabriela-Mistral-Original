@@ -1,8 +1,6 @@
 <?php
-
-             //require("head_style.php");
-             include("head_style.php");
-            ?>
+include('include/header.php'); 
+?>
 
         <!-- COMBAK: ---------------------------------------------------------------- -->
 
@@ -51,17 +49,6 @@
                     </div>
                 </div>
 
-
-
-
-
-
-
-
-        <!-- COMBAK: ---------------------------------------------------------------- -->
-
-
-
-        <?php
-            include("footer_style.php");
-         ?>
+<?php
+include('include/footer.php'); 
+?>

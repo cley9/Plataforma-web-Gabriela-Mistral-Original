@@ -1,12 +1,7 @@
 <?php
-
-  //require("head_style.php");
-  include("head_style.php");
- ?>
-
-
-
-    <div style="height: 30px;"></div>
+include('include/header.php'); 
+?>
+ <div style="height: 30px;"></div>
       <div class="container">
           <div class="row">
               <div class="col-lg-12">
@@ -14,7 +9,7 @@
           <div class="card-header text-center"> <h1>Matricula </h1></div>
           <div class="card-body">
 
-            <p>Complete el siguiente formulario para su posterior inscripcion de su hijo(a) :</p><br>
+            <p>Complete el siguiente formulario:</p><br>
 
 
 
@@ -149,22 +144,8 @@ Sexo:
 
 
 
-
-
-
-
-        <!--// COMBAK: --------------------------------------cley------aqui-------------------------------------->
-
-
-
-
-
-     <!--// COMBAK: --------------------------------------cley---------------------------------------------------------->
-
-
-
         <?php
-        include("Println/registrar.php");
+        // include("Println/registrar.php");
         ?>
          <!--
          <a href="Println/Generador_impreta.php" target="_blank"> descargar </a>
@@ -176,9 +157,6 @@ Sexo:
     </form>-->
 
 
-
-
-
     <?php
-        include("footer_style.php");
-     ?>
+include('include/footer.php');              
+?>

@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-
-
 <?php
-
-							//require("head_style.php");
-							include("head_style.php");
-						 ?>
-
-		<!-- COMBAK: ---------------------------------------------------------------- -->
-
-
-		<!-- COMBAK: ---------------------------------------------------------------- -->
-
-
+include('include/header.php'); 
+?>
 
 		    <div style="height: 30px;"></div>
 		      <div class="container">
@@ -27,10 +15,7 @@
 
   <form class="" action="mostrar_actividad.php" method="POST" enctype="multipart/form-data">
 
-
-
-
-												<div class="form-group">
+<div class="form-group">
 													<label for="inputAddress">NOMBRE DE LA ACTIVIDAD:</label>
 													<input type="text" name="nombre_actividad" class="form-control" id="inputAddress" placeholder="Escriba el nombre de la actividad">
 												</div>
@@ -69,35 +54,13 @@
 												 </div>
 
 							          </div>
-
-
-
-
-
-
-							<!-- COMBAK: ---------------------------------------------------------------- -->
-
-
-
-
-
-
-
-							<!-- COMBAK: ---------------------------------------------------------------- -->
-
-
-
-								 <div class="mb-3 was-validated">   	<!-- COMBAK: --- comprobacion   was-validated -->
+ <div class="mb-3 was-validated">   	<!-- COMBAK: --- comprobacion   was-validated -->
 									<label for="validationTextarea">COMENTARIOS </label>
 									<textarea class="form-control is-invalid" id="validationTextarea" placeholder="Redactar comentario" required></textarea>
 									<div class="invalid-feedback">
 										Porfavor escriba su comentario
 									</div>
 								</div>
-
-
-
-							<!-- COMBAK: ---------------------------------------------------------------- -->
 							<p>SUBIR FICHA ADICIONAL</p>
 						 				<p>Selecciona tu archivo adicional a subir</p>
 						 				<form method="post" action="" enctype="multipart/form-data">
@@ -114,11 +77,6 @@
 
 
 						 				</form>
-
-							<!-- COMBAK: ---------------------------------------------------------------- -->
-
-
-
 		        </form>
 
 		                        </div>
@@ -128,20 +86,7 @@
 
 		              </div>
 		          </div>
-
-
-
-		<!-- COMBAK: ---------------------------------------------------------------- -->
-
-
-		<!-- COMBAK: ---------------------------------------------------------------- -->
-
-
-		<!-- COMBAK: ---------------------------------------------------------------- -->
-
-
-
-
-		<?php
-		    include("footer_style.php");
-		 ?>
+			    
+<?php
+include('include/footer.php'); 
+?>
